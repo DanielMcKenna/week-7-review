@@ -1,9 +1,10 @@
 const alertUserDetails = (event) => {
   // Select the email and password inputs and get their values
   event.preventDefault();
-  alert(
-    `Email: ${event.target.email.value}\nPassword: ${event.target.password.value}`
-  );
+
+  const email = event.target.email.value;
+  const password = event.target.password.value;
+  alert(`Email: ${email}\nPassword: ${password}`);
 };
 
 // Select form element
