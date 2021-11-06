@@ -1,0 +1,53 @@
+/* What are the different types of css selectors ? */
+
+/* What are the different types of css combinators ? (Hint: You might need to google this one. We only briefly mentioned them. */
+
+/* What are the valid values for the 'position' property in css ? (Hint: There are 5) */
+
+/* 
+1. 
+2. 
+3. 
+4. 
+5.  
+*/
+
+/* What additional css properties does position allow us to set ? */
+
+/* What are some of the valid values for the 'display' property in css ? (Hint: There are quite a few, but we have only learned about 3 or 4 of them.) */
+
+/* 
+1. 
+2. 
+3. 
+4. 
+*/
+
+/* Apply styles that will get the form w/ the class name of 'login-container' directly into the center of the screen */
+
+.login-container {
+  width: 35%;
+  height: 20vh;
+
+  background-color: gray;
+  color: white;
+
+  border-radius: 4px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-container > div {
+  margin: 8px;
+}
+
+/* Apply styles that will get have the following result: 
+
+Header that spans entire screen. Header should also have a background color of some kind.
+Link elements that are centered in the header and evenly spaced about. Links should not have any underlining (might need to google this one).
+They should also have a text color that is different than the default blue/purple.
+
+*/
