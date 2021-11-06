@@ -1,15 +1,22 @@
-/* What are the different types of css selectors ? */
+/* What are the different types of css selectors ? 
+id selectores
+element selectors
+nth type
 
-/* What are the different types of css combinators ? (Hint: You might need to google this one. We only briefly mentioned them. */
+*/
+
+/* What are the different types of css combinators ? (Hint: You might need to google this one. We only briefly mentioned them. 
+you can select elements with inelemetns you can select multiple elemtents
+*/
 
 /* What are the valid values for the 'position' property in css ? (Hint: There are 5) */
 
 /* 
-1. 
-2. 
-3. 
-4. 
-5.  
+1. fixed
+2. relative
+3. absolute
+4. static
+5.  sticky
 */
 
 /* What additional css properties does position allow us to set ? */
@@ -17,13 +24,22 @@
 /* What are some of the valid values for the 'display' property in css ? (Hint: There are quite a few, but we have only learned about 3 or 4 of them.) */
 
 /* 
-1. 
-2. 
-3. 
-4. 
+1. none
+2. inline
+3. block
+4. inline-block
 */
 
 /* Apply styles that will get the form w/ the class name of 'login-container' directly into the center of the screen */
+
+.form-container {
+  width: 100%;
+  height: 90vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .login-container {
   width: 35%;
